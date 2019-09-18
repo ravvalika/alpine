@@ -1,4 +1,4 @@
-FROM maven:3.10.2
+FROM alpine:3.10.2
 RUN apk update
 RUN apk add --no-cache \
 alsa-lib \
